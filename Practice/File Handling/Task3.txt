@@ -1,0 +1,2 @@
+Programming is fun.
+File handling is important.
