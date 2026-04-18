@@ -17,11 +17,9 @@ int main()
 {
     int number, guess, attempts = 0;
     int randomNumber= 34;
-    cout << "Welcome to the Number Guessing Game!" << endl;
-    cout << "I have selected a number between 1 and 50. Can you guess it?" << endl;
     do
     {
-        cout << "Enter your guess: ";
+        cout << "Guess the number(1-50): ";
         cin >> guess;
         attempts++;
 

@@ -16,11 +16,17 @@ int main()
     int ways = 0;
     int prev1 = 1;
     int prev2 = 1;
-    if(n == 0 || n == 1)
+    if(n <= 0)
     {
-        cout << "Total distinct ways: 1" << endl;
+        cout << "Please enter a positive integer." << endl;
         return 0;
     }
+    else if(n == 1)
+    {
+        cout << "Total distinct ways: " << 1 << endl;
+        return 0;
+    }
+    else{
 
     for (int i = 2; i <= n; i++)
     {
@@ -30,5 +36,6 @@ int main()
     }
 
     cout << "Total distinct ways: " << ways << endl;
+        }
    return 0;
 }

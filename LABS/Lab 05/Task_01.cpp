@@ -28,8 +28,8 @@ int main()
         cout << number << " ";
         steps++;
     } while (number > 0);
-
-    cout << "\nTotal steps: " << steps << endl;
+    cout << endl;
+    cout << "Total steps: " << steps << endl;
 
     return 0;
 }
